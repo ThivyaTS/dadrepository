@@ -1,7 +1,4 @@
 package lab02.app;
-
-import lab02.rounding.RoundingManager;
-
 /**
 * This application rounding the number to the nearest decimal points.
 *
@@ -21,6 +18,7 @@ public class RoundingApplication {
 		System.out.println("Progress from " + divisor + "/"
 		+ divident + ": " + value + "%");
 		int decimalPoints = 2;
+		19
 		System.out.println("Round to " + decimalPoints + " decimal points: "
 		+ roundManager.roundValue(value, decimalPoints) + "%");
 		decimalPoints = 0;
